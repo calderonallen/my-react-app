@@ -1,8 +1,21 @@
+import "./App.css";
+import {
+  Header,
+  Summary,
+  Experience,
+  Education,
+  Skills,
+} from "./Resume";
+
 function App() {
   return (
-    <div className="App">
-      <h1>Hello World Allen Calderon</h1>
-    </div>
+    <main>
+      <Header />
+      <Summary />
+      <Experience />
+      <Education />
+      <Skills />
+    </main>
   );
 }
 
